@@ -21,7 +21,7 @@
     # Windows
     python -m venv .venv
     .venv\Scripts\activate
-
+    
     # macOS / Linux
     python3 -m venv .venv
     source .venv/bin/activate
@@ -71,7 +71,7 @@
     ```Bash
     pyinstaller --onefile main.py
     ```
-打包完成后，可执行文件将出现在 `dist` 文件夹中。
+    打包完成后，可执行文件将出现在 `dist` 文件夹中。
 
 ## ❤️ 致谢
 本项目使用了以下优秀的第三方服务和资源，特此感谢：
@@ -83,3 +83,14 @@
 - **猫咪趣闻**: [catfact.ninja](https://catfact.ninja/)
 
 详细的第三方许可信息，请查阅 `NOTICE.md` 文件。
+
+## ⚠️ 免责声明
+
+本项目仅用于个人学习与技术交流，所有接口调用均来自第三方平台，可能随时间变动而失效。
+ 项目作者不对以下情况承担责任：
+
+- 第三方服务变更、终止或产生费用；
+- 程序运行过程中出现的任何数据丢失、错误或异常；
+- 用户将该项目用于非法用途或超出学习范围的行为。
+
+请确保在遵守相关法律法规及第三方平台使用条款的前提下使用本项目。
